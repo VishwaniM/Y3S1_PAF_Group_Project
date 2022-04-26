@@ -46,7 +46,7 @@ public class bill {
 			con.close();
 			output = "Inserted successfully";
 		} catch (Exception e) {
-			output = "Error while inserting the Power Details.";
+			output = "Error while inserting the User Details.";
 			System.err.println(e.getMessage());
 		}
 		return output;
@@ -150,7 +150,7 @@ public class bill {
 
 			output = "Deleted successfully";
 		} catch (Exception e) {
-			output = "Error while deleting the Power Details.";
+			output = "Error while deleting the Bill Details.";
 			System.err.println(e.getMessage());
 		}
 
